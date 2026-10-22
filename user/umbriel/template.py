@@ -1,7 +1,7 @@
 pkgname = "umbriel"
-pkgver = "0_git20260929"
+pkgver = "0_git20261022"
 pkgrel = 0
-_commit = "b9301a679f2f7986ebfd266fb4bfb627ad2a9eb2"
+_commit = "5d657581e27e1a3fe604693779ca1405610f4f21 "
 build_style = "meson"
 configure_args = [
     "-Djemalloc=disabled",
@@ -32,7 +32,7 @@ pkgdesc = "Wayland compositor with a custom effects renderer"
 license = "MIT"
 url = "https://github.com/noctalia-dev/umbriel"
 source = f"{url}/archive/{_commit}.tar.gz"
-sha256 = "9118123f8a6c50c75e52271055c949fbbb3535305b4f659c3c15b9a185f8a8c9"
+sha256 = "e51e770fd4b2bc4af2d05c3695bfd41708dba3b9b117f001b38f6b4fd554dc2"
 
 
 def post_install(self):
